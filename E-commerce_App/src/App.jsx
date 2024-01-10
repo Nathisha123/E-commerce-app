@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import UserRoutes from './utils/UserRoutes'
-import AdminRoutes from './utils/AdminRoutes'
+import UserRoutes from './Utils/UserRoutes'
+import AdminRoutes from './Utils/AdminRoutes'
 function App() {
   return <>
     <div>

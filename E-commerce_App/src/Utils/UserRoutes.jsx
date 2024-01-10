@@ -1,9 +1,9 @@
 import React from 'react'
 import { Routes,Route,Navigate } from 'react-router-dom'
-import Cart from '../components/users/Cart'
-import Home from '../components/users/Home'
-import Product from '../components/users/Product'
-import TopBar from '../components/common/TopBar'
+import Cart from '../Components/Users/Cart'
+import Home from '../Components/Users/Home'
+import Product from '../Components/Users/Product'
+import TopBar from '../Components/Common/TopBar'
 function UserRoutes() {
   return <>
   <TopBar/>

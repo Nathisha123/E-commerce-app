@@ -1,6 +1,6 @@
 import React,{useContext} from 'react'
 import {ProductContext} from '../../context/ProductContextComponent'
-import ProductsCard from '../common/ProductsCard'
+import ProductsCard from '../Common/ProductsCard'
 function Home() {
   let {state} = useContext(ProductContext)
 

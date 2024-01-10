@@ -1,9 +1,9 @@
 import React from 'react'
 import { Routes,Route, Navigate } from 'react-router-dom'
-import Dashboard from '../components/admin/Dashboard'
-import AddProduct from '../components/admin/AddProduct'
-import EditProduct from '../components/admin/EditProduct'
-import TopBar from '../components/common/TopBar'
+import Dashboard from '../Components/Admin/Dashboard'
+import AddProduct from '../Components/Admin/AddProduct'
+import EditProduct from '../Components/Admin/EditProduct'
+import TopBar from '../Components/Common/TopBar'
 function AdminRoutes() {
   return <>
   <TopBar/>
